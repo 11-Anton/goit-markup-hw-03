@@ -5,10 +5,35 @@ body {
   letter-spacing: 0.02em;
   background-color: #ffffff;
 }
-ul {
-  list-style: none;
-  background-color: #fff;
+main{
+  flex-grow: 1;
 }
+
+ul,ol {
+  list-style: none;
+margin: 0;
+  padding-left: 0;
+}
+h1,h2,h3{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+p{
+  margin:0;
+}
+.container{
+  max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* HEADER */
 /* LOGO */
 .logo {
