@@ -30,7 +30,6 @@ p{
 }
 /* Common styles */
 .container {
-  display: flex;
   margin: 0 auto;
   width: 1158px;
   flex-shrink: 0;
@@ -55,9 +54,7 @@ p{
 .header {
 border-bottom: 1px solid #e7e9fc;
 }
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
+ 
 
 .logo {
   color: var(--IRIS, #4d5ae5);
