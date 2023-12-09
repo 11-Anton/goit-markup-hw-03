@@ -84,23 +84,7 @@ flex-shrink: 0;
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo-footer{
-    display: inline-block;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #4d5ae5;
-    margin-right: 76px;
-    margin-bottom: 16px;
-    
-}
-.logo-two{
-  color:#f4f4fd;
-  
-}
+
 /* NAV*/
 .nav {
   display: flex;
@@ -368,6 +352,24 @@ letter-spacing: 0.02em;
    
   background-color: #2e2f42;
     padding: 100px 0;
+}
+
+.logo-footer {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  margin-right: 76px;
+  margin-bottom: 16px;
+}
+
+.logo-two {
+  color: #f4f4fd;
+
 }
 .footer-text{
   color:#F4F4FD;
