@@ -41,7 +41,6 @@ p{
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -55,7 +54,7 @@ p{
 display: flex;
 justify-content: center;
 align-items: center;
-flex-shrink: 0; 
+ flex-wrap: wrap;
   gap: 332px;
 }
 .header {
@@ -355,7 +354,6 @@ letter-spacing: 0.02em;
 }
 
 .logo-footer {
-  display: inline-block;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -363,12 +361,15 @@ letter-spacing: 0.02em;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  display: inline-block;
+  
   margin-right: 76px;
   margin-bottom: 16px;
 }
 
 .logo-two {
   color: #f4f4fd;
+  display: inline-block;
 
 }
 .footer-text{
