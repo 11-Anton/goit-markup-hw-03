@@ -349,7 +349,6 @@ letter-spacing: 0.02em;
 }
 /*footer*/
 .footer {
-   
   background-color: #2e2f42;
     padding: 100px 0;
 }
@@ -362,15 +361,13 @@ letter-spacing: 0.02em;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  display: inline-block;
-  
   margin-right: 76px;
   margin-bottom: 16px;
 }
 
 .logo-two {
   color: #f4f4fd;
-  display: inline-block;
+   
 
 }
 .footer-text{
