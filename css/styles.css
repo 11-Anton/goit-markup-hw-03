@@ -29,8 +29,8 @@ p{
   margin:0;
 }
 /* Common styles */
-.container{
-  max-width: 1158px;
+.container {
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -41,9 +41,10 @@ p{
   margin: -1px;
   border: 0;
   padding: 0;
+
   white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
   overflow: hidden;
 }
 
@@ -84,7 +85,7 @@ flex-shrink: 0;
   text-decoration: none;
 }
 .logo-footer{
-  display: inline-block;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -94,6 +95,7 @@ flex-shrink: 0;
     color: #4d5ae5;
     margin-right: 76px;
     margin-bottom: 16px;
+    
 }
 .logo-two{
   color:#f4f4fd;
@@ -179,26 +181,26 @@ gap: 40px;
    margin-bottom: 48px;
 }
 
-.button-hero{
+.button{
 background-color: #4d5ae5;
-  color: #ffffff;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   display: inline-flex;
-  padding:  16px 32px;
+  padding: 16px 32px;
   align-items: flex-start;
-  gap:10px;
+  gap: 10px;
   border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+
 }
-.button-hero:hover,
-.button-hero:focus {
+.button:hover,
+.button-heroz:focus {
   background-color: #404bbf;
 }
 
