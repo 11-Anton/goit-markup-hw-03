@@ -353,19 +353,20 @@ letter-spacing: 0.02em;
     padding: 100px 0;
 }
 
-.logo-footer {
+.logo-two{
   font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-  margin-right: 76px;
-  margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
-.logo-two {
+.logo-footer {
   color: #f4f4fd;
    
 
@@ -374,3 +375,4 @@ letter-spacing: 0.02em;
   color:#F4F4FD;
   max-width: 264px;
 }
+
